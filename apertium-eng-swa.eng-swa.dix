@@ -91,13 +91,60 @@
     <sdef n="lquot"           c="Left quote"/>
     <sdef n="rquot"           c="Right quote"/>
 
+    <sdef n="cl1"             c="Class 1 nouns"/>
+    <sdef n="cl3"             c="Class 3 nouns"/>
+    <sdef n="cl5"             c="Class 5 nouns"/>
+    <sdef n="cl7"             c="Class 7 nouns"/>
+    <sdef n="cl9"             c="Class 9 nouns"/>
+    <sdef n="cl11"            c="Class 11 nouns"/>
+    <sdef n="cl14"            c="Class 14 nouns"/>
+    <sdef n="cl115"           c="Class 15 nouns"/>
+
     <sdef n="compound-only-L" c="May only be the left-side of a compound"/>
     <sdef n="compound-R"      c="May be the right-side of a compound, or a full word"/>
   </sdefs>
 
    <section id="main" type="standard">
       <!-- Define entries within <e> here. -->
-      <e><p><l>house<s n="n"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
+       <e><p><l>mvuluna<s n="n"/><s n="cl1"/></l><r>boy<s n="n"/></r></p></e>
+       <e><p><l>msichana<s n="n"/><s n="cl1"/></l><r>girl<s n="n"/></r></p></e>
+       <e><p><l>kiti<s n="n"/><s n="cl7"/></l><r>chair<s n="n"/></r></p></e>
+       <e><p><l>dada<s n="n"/><s n="cl1"/></l><r>sister<s n="n"/></r></p></e>
+       <e><p><l>mama<s n="n"/><s n="cl1"/></l><r>mother<s n="n"/></r></p></e>
+       <e><p><l>mti<s n="n"/><s n="cl3"/></l><r>tree<s n="n"/></r></p></e>
+       <e><p><l>mkono<s n="n"/><s n="cl3"/></l><r>hand<s n="n"/></r></p></e>
+       <e><p><l>mchezo<s n="n"/><s n="cl3"/></l><r>game<s n="n"/></r></p></e>
+       <e><p><l>mwaka<s n="n"/><s n="cl3"/></l><r>year<s n="n"/></r></p></e>
+       <e><p><l>mbwa<s n="n"/><s n="cl1"/></l><r>dog<s n="n"/></r></p></e>
+       <e><p><l>paka<s n="n"/><s n="cl1"/></l><r>cat<s n="n"/></r></p></e>
+       <e><p><l>kichwa<s n="n"/><s n="cl7"/></l><r>head<s n="n"/></r></p></e>
+       <e><p><l>nyumba<s n="n"/><s n="cl9"/></l><r>house<s n="n"/></r></p></e>
+       <e><p><l>meza<s n="n"/><s n="cl9"/></l><r>table<s n="n"/></r></p></e>
+       <e><p><l>jibu<s n="n"/><s n="cl7"/></l><r>answer<s n="n"/></r></p></e>
+       <e><p><l>swali<s n="n"/><s n="cl5"/></l><r>question<s n="n"/></r></p></e>
+       <e><p><l>mtoto<s n="n"/><s n="cl5"/></l><r>child<s n="n"/></r></p></e>
+       <e><p><l>mtu<s n="n"/><s n="cl1"/></l><r>people<s n="n"/></r></p></e>
+       <e><p><l>ndege<s n="n"/><s n="cl3"/></l><r>bird<s n="n"/></r></p></e>
+       <e><p><l>mnyama<s n="n"/><s n="cl1"/></l><r>animal<s n="n"/></r></p></e>
+       <e><p><l>dirisha<s n="n"/><s n="cl5"/></l><r>window<s n="n"/></r></p></e>
+       <e><p><l>jicho<s n="n"/><s n="cl5"/></l><r>eye<s n="n"/></r></p></e>
+       <e><p><l>maji<s n="n"/><s n="cl5"/></l><r>water<s n="n"/></r></p></e>
+       
+       
+       <!-- <e><p><l>garden<s n="n"/></l><r>...<s n="n"/><s n="cl1"/></r></p></e> 
+            <e><p><l>weather<s n="n"/></l><r>...<s n="n"/><s n="cl1"/></r></p></e> 
+            <e><p><l>sound<s n="n"/></l><r>...<s n="n"/><s n="cl1"/></r></p></e> -->
+       
+       <!-- LEXICAL VERBS -->
+
+       <e><p><l>kuweka<s n="vblex"/></l><r>set<s n="vblex"/></r></p></e>
+       <e><p><l>kucheza<s n="vblex"/></l><r>play<s n="vblex"/></r></p></e>
+       <e><p><l>kuwaambia<s n="vblex"/></l><r>tell<s n="vblex"/></r></p></e>
+       <e><p><l>kujaribu<s n="vblex"/></l><r>try<s n="vblex"/></r></p></e>
+       <e><p><l>kuuliza<s n="vblex"/></l><r>ask<s n="vblex"/></r></p></e>
+       <e><p><l>kuongeza<s n="vblex"/></l><r>add<s n="vblex"/></r></p></e>
+       <e><p><l>kusema<s n="vblex"/></l><r>say<s n="vblex"/></r></p></e>
+
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
